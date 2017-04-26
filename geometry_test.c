@@ -16,8 +16,7 @@
 #include "geometry.h"
 
 /* coord_2d_eq Test */
-START_TEST(test_2d_eq)
-{
+START_TEST(test_2d_eq){
     coord_2d_t a;
     coord_2d_t b;
 
@@ -55,8 +54,7 @@ START_TEST(test_2d_eq)
 END_TEST
 
 /* coord_2d_dist Test */
-START_TEST(test_2d_dist)
-{
+START_TEST(test_2d_dist){
     coord_2d_t a;
     coord_2d_t b;
 
@@ -92,8 +90,7 @@ START_TEST(test_2d_dist)
 END_TEST
 
 /* coord_2d_midpoint Test */
-START_TEST(test_2d_midpoint)
-{
+START_TEST(test_2d_midpoint){
     coord_2d_t a;
     coord_2d_t b;
     coord_2d_t mid;
@@ -145,8 +142,7 @@ START_TEST(test_2d_midpoint)
 }
 END_TEST
 
-START_TEST(test_2d_area_triangle)
-{
+START_TEST(test_2d_area_triangle){
     coord_2d_t a;
     coord_2d_t b;
     coord_2d_t c;
