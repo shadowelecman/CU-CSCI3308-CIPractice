@@ -1,6 +1,6 @@
 language: c
 install: make dep
 compiler: 
-	-gcc
+  - gcc
 script: make all && make test
 sudo: required
