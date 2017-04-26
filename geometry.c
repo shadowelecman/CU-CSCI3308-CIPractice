@@ -89,4 +89,5 @@ double coord_2d_area_triangle(const coord_2d_t *a, const coord_2d_t *b, const co
 	coord_2d_midpoint(mid,a,b);
 	double height=coord_2d_dist(mid,c);
 	double area=(base*height)/2;
+	return area;
 }
